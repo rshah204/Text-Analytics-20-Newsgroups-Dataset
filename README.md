@@ -16,6 +16,7 @@ Refer to "User Instruction File.pdf" for brief instructions on how to set up and
 • Used machine learning techniques to classify the documents into 20 different news groups. The data was trained over different classifiers such as Multinominal Naïve Bayes Model, Logistic Regression, Stochastic Gradient Descent Classifier, k Nearest Neighbors and Neural Networks.
 
 • Various measures like accuracy, precision, recall and F-score were used to determine the best fit model.
+
 • Classifiers Multinominal Naïve Bayes and k Nearest Neighbors performed best when neither stemming nor lemmatization was done and only unigrams were extracted in the TF-IDF Vectorizer.
 
 • Logistic Regression had the best performance when Lemmatization was used with only unigrams extracted in the TF-IDF Vectorizer.
